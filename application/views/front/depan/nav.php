@@ -19,9 +19,7 @@
                         <li class="scroll"><a href="<?php echo site_url('public_controler/index')?>">Home</a></li>             
                         <li class="scroll"><a class="border" href="<?php echo site_url('public_controler/about')?>">About Us</a></li>
                         <li class="scroll"><a class="border" href="<?php echo site_url('public_controler/team')?>">Team</a></li>
-                        <li class="scroll"><a class="border" href="#portfolio">Portfolio</a></li>
-                        <li class="scroll"><a class="border" href="#clients">Clients</a></li> 
-                        <li class="scroll"><a class="border" href="#blog">Blog</a></li>
+                        <li class="scroll"><a class="border" href="<?php echo site_url('public_controler/service')?>">Service</a></li>
                         <li class="scroll"><a class="border" href="<?php echo site_url('public_controler/contact')?>">Contact</a></li>                        
                     </ul>
                 </div>

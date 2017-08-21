@@ -25,6 +25,15 @@ class Public_controler extends CI_Controller {
 		$data ['main'] 	= 'front/part/contact.php';
 		$this->load->view('front/index',$data);
 	}
-
+	public function service (){
+		$data['title'] 	= 'PT Asia Resource System - IT Solution Provider';
+		$data ['main'] 	= 'front/part/service.php';
+		$this->load->view('front/index',$data);
+	}
+	public function visi (){
+		$data['title'] 	= 'PT Asia Resource System - IT Solution Provider';
+		$data ['main'] 	= 'front/part/visi.php';
+		$this->load->view('front/index',$data);
+	}
 }
 ?>
