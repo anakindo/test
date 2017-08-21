@@ -20,6 +20,11 @@ class Public_controler extends CI_Controller {
 		$data ['main'] 	= 'front/part/about.php';
 		$this->load->view('front/index',$data);
 	}
+	public function contact (){
+		$data['title'] 	= 'PT Asia Resource System - IT Solution Provider';
+		$data ['main'] 	= 'front/part/contact.php';
+		$this->load->view('front/index',$data);
+	}
 
 }
 ?>

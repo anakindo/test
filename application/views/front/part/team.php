@@ -1,3 +1,4 @@
+<section>
 <div class="our-team">
             <div class="container">
                 <h2 class="wow fadeIn" data-wow-duration="1200ms" data-wow-delay="300ms">Meet the <span>Team</span></h2>

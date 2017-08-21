@@ -93,22 +93,46 @@
     </section><!--/#services--> 
     
     <section id="about-us">
+        <section id="main-carousel" class="carousel slide" data-ride="carousel">         
+        <ol class="carousel-indicators">
+            <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#main-carousel" data-slide-to="1"></li>
+            <li data-target="#main-carousel" data-slide-to="2"></li>
+            <li data-target="#main-carousel" data-slide-to="3"></li>
+            <li data-target="#main-carousel" data-slide-to="4"></li>
+        </ol><!--/.carousel-indicators-->
+        
+        <div class="carousel-inner">
+            <div class="item active" style="background-image: url(<?php echo base_url() ?>assets/images/slider/1.jpg)">
+            </div>
+            <div class="item" style="background-image: url(<?php echo base_url() ?>assets/images/slider/2.jpg)">
+            </div>
+            <div class="item" style="background-image: url(<?php echo base_url() ?>assets/images/slider/3.jpg)">
+            </div>
+            <div class="item" style="background-image: url(<?php echo base_url() ?>assets/images/slider/4.jpg)">
+            </div>
+            <div class="item" style="background-image: url(<?php echo base_url() ?>assets/images/slider/5.jpg)">
+            </div>
+        </div>  
+    </section>
+        </section>
+        <section id="about-us">
         <div class="about-bg"></div>
         <div class="container">
             <div class="about-details wow flipInX" data-wow-duration="1500ms" data-wow-delay="300ms">
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
-                        <div class="about-image">
-                            <img class="img-responsive" src="<?php echo base_url() ?>assets/images/about-us/about.jpg" alt="" />
+                     <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
+                        <div class="default-bg about-content">
+                            <h2>About <span>Us</span></h2>
+                            <p>PT. Asia Resource System atau lebih dikenal dengan Asiasystem adalah Perusahaan Software di Indonesia dengan Badan Hukum (Perseroan Terbatas) yang mengembangkan Sistem Informasi berbasis Web. Layanan Asiasystem secara umum meliputi Layanan Jasa Teknologi Informasi - Perancangan Software Sistem Informasi berbasis Web (Web based Information System). Beberapa produk dan layanan kami, meliputi: Perancangan Sistem Informasi Akademik, Perpustakaan, Kepegawaian, Keuangan, Pengelolaan Aset, Portal Web/Web Desain, Pengadaan Hardware, Networking/Jaringan serta Pelatihan di bidang Teknologi Informasi. Saat ini, Sistem Informasi Rumah Sakit menjadi salah satu Software Utama dan Terbaik dari Asiasystem.</p>
                         </div>                      
                     </div>
                     <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
                         <div class="default-bg about-content">
-                            <h2>About <span>Us</span></h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-                            <p>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p>Perusahaan kami mempunyai tenaga Ahli di bidang IT yang sudah mempunyai pengalaman sampai level Asia Tenggara Kami akan memberikan produk yang berkualitas baik, sehingga dapat memberikan kepuasan kepada customer.<br>K omitmen kami untuk selalu melahirkan inovasi-inovasi baru dalam memberi nilai tambah di bidang pengelolaan teknologi informasi melalui tahapan-tahapan yang berawal dari konsultasi, perencanaan, pengembangan, managemen proyek, operasional, serta layanan purna jual.</p>
                         </div>                      
                     </div>
                 </div>
             </div>
         </div>
+        </section>
